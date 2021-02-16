@@ -28,7 +28,7 @@ int main()
 	}
 	// nbclause
 	unsigned int nbclause = n + combinations(n, 2) * m;
-	//outputs
+	// outputs
 	FILE *fp;
 	fp = fopen("output.cnf", "w");
 	fprintf(fp, "c\n");
